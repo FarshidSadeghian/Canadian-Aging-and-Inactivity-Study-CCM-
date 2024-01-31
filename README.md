@@ -1,4 +1,4 @@
-# Inferring-the-BP-EMG-causal-direction
+# Time series casuality analysis
 
 Convergent cross mapping (CCM) is a non-linear technique for measuring the bidirectional causal relationship between two time series X 〖(x〗_t,t=1,…,L)  and Y (y_t,t=1,…,L), where L is the length of the time series.
 To infer causation, CCM uses state-space reconstruction (system state representation using successive lags of a single time series) and Takens' Theorem, which stipulates that if X causes Y, then the historical values of X can be reconstructed from the variable Y alone.
